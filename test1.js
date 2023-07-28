@@ -7,3 +7,11 @@ let elementDelete = [400, 500];
 
 const Array = nums.filter((item) => item !== 400 && item !== 500);
 console.log(Array);
+
+//문제 2.배열의 내장함수
+
+var arr = [200, 100, 300];
+//pass <내장함수 이용하기>
+console.log(arr);
+
+arr.splice(2, 0, 10000);
